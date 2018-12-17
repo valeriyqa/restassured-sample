@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fa7b0bb-c3a3-4275-8267-361a9513fa81" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1fa7b0bb-c3a3-4275-8267-361a9513fa81" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="restAssuredTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-435">
+              <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.restAssuredTest">
+  <component name="RunManager" selected="TestNG.restAssuredTest.GetMessages">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -261,29 +259,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="restAssuredTest.CretePPollMessage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restassured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredTest" />
-      <option name="METHOD_NAME" value="CretePPollMessage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="restAssuredTest.CretePollMessage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Restassured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -330,6 +305,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="restAssuredTest.GetMessages" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Restassured" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest" />
+      <option name="METHOD_NAME" value="GetMessages" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="restAssuredTest.Getmessages" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Restassured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -356,19 +354,19 @@
     <list>
       <item itemvalue="JUnit.All in Restassured" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.restAssuredTest.CretePPollMessage" />
       <item itemvalue="TestNG.restAssuredTest.Getmessages" />
       <item itemvalue="TestNG.restAssuredTest" />
       <item itemvalue="TestNG.restAssuredTest.CretePollMessage" />
       <item itemvalue="TestNG.restAssuredTest.DeleteMessage" />
+      <item itemvalue="TestNG.restAssuredTest.GetMessages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.restAssuredTest.GetMessages" />
         <item itemvalue="TestNG.restAssuredTest" />
         <item itemvalue="TestNG.restAssuredTest.DeleteMessage" />
         <item itemvalue="TestNG.restAssuredTest.CretePollMessage" />
         <item itemvalue="TestNG.restAssuredTest.Getmessages" />
-        <item itemvalue="TestNG.restAssuredTest.CretePPollMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -616,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-435">
+          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
