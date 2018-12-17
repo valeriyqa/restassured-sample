@@ -96,7 +96,7 @@ public class restAssuredTest {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json")
                 .header("Authorization", "token " + "f8e6e93dd349db251516f7845f7aed51ba8b9d02");
-        Response response = request.get("https://dev-lt-portal.tk:50443/api/user_messages/");
+        Response response = request.get(PostMessageUrl);
         System.out.print(response.getBody().asString());
         String bodyAsString = response.getBody().asString();
         Assert.assertEquals(bodyAsString.toLowerCase().contains("count"), true);
@@ -112,7 +112,7 @@ public class restAssuredTest {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json")
                 .header("Authorization", "token " + "f8e6e93dd349db251516f7845f7aed51ba8b9d02");
-        Response response = request.delete("https://dev-lt-portal.tk:50443/api/messages/" + pollId + "/");
+        Response response = request.delete(PostMessageUrl + pollId + "/");
         Assert.assertEquals(response.getStatusCode(), 204);
 
     }

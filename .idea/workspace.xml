@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa7b0bb-c3a3-4275-8267-361a9513fa81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="restAssuredTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+            <state relative-caret-position="675">
+              <caret line="111" column="59" lean-forward="true" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -617,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+        <state relative-caret-position="675">
+          <caret line="111" column="59" lean-forward="true" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
