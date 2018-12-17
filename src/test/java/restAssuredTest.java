@@ -103,6 +103,7 @@ public class restAssuredTest {
         Assert.assertEquals(response.getStatusCode(), 200);
 
     }
+
     
     @Test
     public void DeleteMessage()
