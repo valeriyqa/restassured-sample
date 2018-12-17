@@ -12,9 +12,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import java.util.HashMap;
-import java.util.Map;
-/*@Listeners({TestListener.class})*/
+
 @Epic("Some epic mane")
 @Feature("Some feature")
 
