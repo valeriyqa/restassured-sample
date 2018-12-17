@@ -27,10 +27,10 @@ public class restAssuredTest {
     JSONObject requestBody = new JSONObject();
     int pollId;
 
-    @Test (priority = 0, description= "Login Scenario with valid username and password.")
+    @Test (priority = 1, description= "Login Scenario with valid username and password.")
     @Severity(SeverityLevel.MINOR)
-    @Description("Test description: Login with a common user")
-    @Story("Wtf is story")
+    @Description("Test description: Login with a non admin user")
+    @Story("Some story")
 
     public void Login()
     {
@@ -57,12 +57,6 @@ public class restAssuredTest {
     @Test
     public void CretePollMessage()
     {
-
-        /*Map<String, Object> jsonAsMap = new HashMap<>();
-        jsonAsMap.put("value1", "asd");
-        jsonAsMap.put("id", "null");
-        jsonAsMap.put("value2", "asd2");
-        jsonAsMap.put("id", "null");*/
 
         JSONArray obj = new JSONArray();
         for(int i = 0; i < 3; i++) {
