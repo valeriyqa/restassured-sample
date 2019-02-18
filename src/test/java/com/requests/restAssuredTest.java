@@ -1,3 +1,6 @@
+package com.requests;
+
+
 import io.qameta.allure.*;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
@@ -24,6 +27,11 @@ public class restAssuredTest {
     String PostMessageUrl = "https://dev-lt-portal.tk:50443/api/messages/";
     JSONObject requestBody = new JSONObject();
     int pollId;
+ //region Test Case specific variables
+    String userEmail =  "feriksatan@gmail.com";
+    String userPass = "12qw!@QW";
+    String requestToken = "f8e6e93dd349db251516f7845f7aed51ba8b9d02";
+    //endregion
 
     @Test (priority = 1, description= "Login Scenario with valid username and password.")
     @Severity(SeverityLevel.MINOR)
@@ -33,8 +41,8 @@ public class restAssuredTest {
     public void Login()
     {
 
-        requestBody.put("email", "feriksatan@gmail.com");
-        requestBody.put("password", "12qw!@QW");
+        requestBody.put("email", userEmail);
+        requestBody.put("password", userPass);
 
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
@@ -52,7 +60,7 @@ public class restAssuredTest {
         Assert.assertEquals(statusCode, 200);
         Assert.assertEquals(response.jsonPath().get("user.id").toString(), "398");
     }
-    @Test
+    @Test (priority = 2)
     public void CretePollMessage()
     {
 
@@ -75,7 +83,7 @@ public class restAssuredTest {
 
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json")
-                .header("Authorization", "token " + "f8e6e93dd349db251516f7845f7aed51ba8b9d02")
+                .header("Authorization", "token " + requestToken)
                 .header("Cookie", "sessionid=pnw1ku9f11m8m2jtz031gb4lvci2nczn");
 
 
@@ -88,12 +96,12 @@ public class restAssuredTest {
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 201);
     }
-    @Test
+    @Test (priority = 2)
     public void GetMessages()
     {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json")
-                .header("Authorization", "token " + "f8e6e93dd349db251516f7845f7aed51ba8b9d02");
+                .header("Authorization", "token " + requestToken);
         Response response = request.get(PostMessageUrl);
         System.out.print(response.getBody().asString());
         String bodyAsString = response.getBody().asString();
@@ -105,12 +113,12 @@ public class restAssuredTest {
     }
 
 
-    @Test
+    @Test (priority = 2)
     public void DeleteMessage()
     {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json")
-                .header("Authorization", "token " + "f8e6e93dd349db251516f7845f7aed51ba8b9d02");
+                .header("Authorization", "token " + requestToken);
         Response response = request.delete(PostMessageUrl + pollId + "/");
         Assert.assertEquals(response.getStatusCode(), 204);
 
